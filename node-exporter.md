@@ -14,7 +14,7 @@ tar xvf node_exporter-1.8.2.linux-amd64.tar.gz
 ```
 Now, move the `node_exporter` binary to `/usr/local/bin`:
 ```sh
-cd node_exporter-1.8.2.linux-amd64.tar.gz
+cd node_exporter-1.8.2.linux-amd64
 sudo cp node_exporter /usr/local/bin
 ```
 After copying the binary, clean up the extracted directory and archive to avoid clutter:
